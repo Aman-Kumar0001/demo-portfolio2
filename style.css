@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.head1 {
+    font-size: 26px;
+    color: white;
+}
+
+.nav {
+    background-color: #b1afaf;
+    padding: 8px 13px;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin-top: -150px;
+}
+
+.chngecolor{
+    background-color: #4a4a4c;
+    transition: .4s all linear;
+}
+
+
+.btn {
+    background-color: rgb(93, 24, 221);
+    padding: 9px 17px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.btn:hover{
+    margin-top: -2;
+}
+
+.nav button {
+    margin-left: 1110px;
+    position: fixed;
+}
+
+.nav img {
+    width: 150px;
+    margin-top: 9px;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-right: 29px;
+    padding-left: 22px;
+    font-size: 16px;
+}
+
+.nav2 {
+    margin-top: -22px;
+}
+
+.nav a {
+    color: #ffffff;
+    padding-right: 18px;
+
+}
+
+.home {
+    margin-left: 900px;
+    padding-right: 15px;
+}
+
+.services {
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.about {
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.contact {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.buy {
+    padding-left: 400px;
+    border-right: 1px solid #555555;
+    padding-right: 15px;
+}
+
+.search {
+    padding-left: 5px;
+    border-right: 1px solid #555555;
+    padding-right: 15px;
+}
+
+.para1 {
+    margin-top: 150px;
+    padding: 0px 200px;
+}
+
+.para1 .p1 {
+    font-size: 50px;
+    padding: 6px 0px;
+}
+
+.para1 .p2 {
+    width: 560px;
+    margin: 10px 0;
+}
+
+
+.para1 img {
+    width: 300px;
+    height: 360px;
+    margin-left: 850px;
+    margin-top: -270px;
+    border-radius: 50%;
+}
+
+.para2{
+    width: 100%;
+}
+
+.para2 h1{
+    font-size: 46px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.dash{
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin: 0px 170px;
+}
+
+.par1{
+    width: 420px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.para2 img{
+    width: 500px;
+    height: 340px;
+    margin-left: 800px;
+    margin-top: -340px;
+}
+
+.para3{
+    width: 100%;
+}
+
+.para3 h1{
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.dash{
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin: 0px 170px;
+}
+
+.para3 img{
+    width: 500px;
+    height: 340px;
+    margin-left: 200px;
+}
+
+.para3 .par1{
+    width: 420px;
+    margin-left: 800px;
+    margin-top: -340px;
+    font-size: 20px;
+}
+
+.about1{
+    margin-top: 80px;
+    width: 100%;
+    height: 450px;
+}
+
+.about2{
+    margin-top: -1px;
+    background-color: #1c232b;
+    width: 100%;
+    height: 450px;
+}
+
+.button{
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.button hr{
+    margin-top: 38px;
+}
+
+.btn2{
+    position: absolute;
+    width: 200px;
+    font-size: 40px;
+    margin: 0px 655px;
+    font-weight: bold;
+    margin-top: 12px;
+    border-radius: 20px;
+    color: white;
+    padding: 2px 5px;
+    background-color: #673AB7;
+}
+
+.education{
+    color: white;
+    width: 300px;
+    margin-left: 800px;
+    padding-top: 30px;
+}
+
+.edu{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #673AB7;
+    margin: 20px 0px;
+}
+
+.list{
+    font-size: 22px;
+    color: #673AB7;
+}
+
+.list2{
+    color: white;
+}
+
+.list3{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form{
+    border-top: 5px solid blue;
+    width: 300px;
+    margin: 0px 556px;
+    font-size: 18px;
+    margin-top: 500px;
+    padding: 10px 30px;
+    background-color: #f2f1f1;
+    border-radius: 10px;
+}
+
+form h2{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+.line1 {
+    width: 300px;
+    height: 1px;
+    background: gray;
+    margin-top: 30px;
+}
+
+form input{
+    height: 30px;
+}
+
+form input,textarea{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+}
+
+form img{
+    margin: 20px 0px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 0px 10.9px;
+}
+
+form button{
+    width: 100%;
+}
+
+.par2{
+    font-size: 14px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #1c232b;
+    color: white;
+    height: 400px;
+    padding-top: 60px;
+}
+
+.QuickLinks{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.QuickLinks ul{
+    margin-left: 40px;
+}
+
+.amankumar{
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -225px;
+}
+
+.amankumar img{
+    margin: 20px 0px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 0px 10.9px;
+}
+
+.contact1{
+    width: 300px;
+    margin-left: 1100px;
+    margin-top: -110px;
+}
